@@ -15,5 +15,17 @@ A lightweight, easy-to-use Python wrapper for interacting with Z AI's GLM 5.2 mo
 
 You can install this package directly from GitHub using pip:
 
-```bash
-pip install git+https://github.com/LaiqQureshi/z-ai-glm-wrapper.git
+`pip install git+https://github.com/LaiqQureshi/z-ai-glm-wrapper.git`
+
+## 🚀 Quick Start
+
+Here is a quick example of how to use this wrapper in your own Python code:
+
+`from glm_wrapper import ZAIClient`
+`client = ZAIClient(api_key="your_api_key_here")`
+`response = client.chat("Explain quantum computing in one simple sentence.")`
+`print(response)`
+
+## 👨‍💻 Author
+**Laiq Ahmed Qureshi** 
+🔗 [Prompt Library](https://laiqqureshi.github.io/LaiqVerse-Prompt-Library/)

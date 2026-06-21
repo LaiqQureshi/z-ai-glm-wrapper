@@ -28,4 +28,4 @@ Here is a quick example of how to use this wrapper in your own Python code:
 
 ## 👨‍💻 Author
 **Laiq Ahmed Qureshi** 
-🔗 [Prompt Library](https://laiqverse11.wordpress.com/)
+🔗 [LaiqVerse](https://laiqverse11.wordpress.com/)

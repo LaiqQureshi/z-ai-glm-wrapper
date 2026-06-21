@@ -1,24 +1,19 @@
-# Z AI GLM 5.2 Universal Wrapper
+# 🤖 Z AI GLM 5.2 Universal Wrapper
 
-A simple, easy-to-use Python wrapper for interacting with Z AI's GLM 5.2 model. 
-It handles the complicated internet requests for you so you can just focus on your prompts!
+![Python](https://img.shields.io/badge/python-3.6+-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.0-green.svg)
+![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
-## How to Install
+A lightweight, easy-to-use Python wrapper for interacting with Z AI's GLM 5.2 model. It handles the complicated internet requests for you so you can just focus on your prompts!
 
-Make sure you have Python installed on your computer. Then, download this code.
+## ✨ Features
+- **Super Simple Setup:** Get started in just 2 lines of code.
+- **Error Handling:** Built-in try/except logic so your app doesn't crash if the API is busy.
+- **Lightweight:** No heavy dependencies, just standard Python requests.
 
-## How to Use
+## 📦 Installation
 
-Here is a quick example of how to use this wrapper in your own Python code:
+You can install this package directly from GitHub using pip:
 
-```python
-from glm_wrapper import ZAIClient
-
-# 1. Put your actual Z AI API key here
-client = ZAIClient(api_key="your_api_key_here")
-
-# 2. Ask the AI a question!
-response = client.chat("Explain quantum computing in one simple sentence.")
-
-# 3. Print the answer
-print(response)
+```bash
+pip install git+https://github.com/LaiqQureshi/z-ai-glm-wrapper.git

@@ -1,0 +1,11 @@
+# Mac OS background files
+.DS_Store
+
+# Python background files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
